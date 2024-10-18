@@ -1,0 +1,112 @@
+
+on-1 off-0   ---------->ASCII,UNICODE (	a-97)-18
+
+s.l :- designing the websites(html,css,js,ts,.......)
+
+
+p.l:- devloping the softwares(c,java.....)
+
+								computer lang
+								
+					scripting lang			programming lang
+
+										pop     		oop
+							(procedure or pl)			(object or pl)
+						basic,cobal,python......		java,.net	,python,c++,lisp
+						
+	oops:-
+	----
+	
+	security:- Abstraction,Encapsulation
+	
+	performace :- Inheritance ,polymorphism
+	
+	
+	****java is  oopl with oops features
+	
+	java:-
+	-----
+	paltform independency
+	
+	garbage collector
+	
+	
+	1995-sun microsystem --------->portable device
+	
+	
+	green team(.gt)------------>oak--------->java(.java)
+	
+	jdk (1.0) ------------------------------>jdk 23
+	
+	
+	jse/j2se:-standalone app[server-client]-core java
+	
+	jee/j2ee:-distributed app[server-client] -Adv java
+	
+	jme/j2me:-mobile app-micro java
+	
+	
+	methods:- set of statements where altogether will perform a task
+	
+	
+	shortcuts:-
+	----------
+	
+	ctrl+space :- suggestions
+	
+	ctrl+shift+o :- imports
+	
+	ctrl+shift+f :-format
+	
+	
+	
+	
+	variables :-
+	
+		syntax:-	dt varname;			//declaration of a variables
+					
+					dt varname = value ;   //initialization of a variables
+	
+			
+			
+			
+		(1)local variables(inside the method body)			(2)global variables(outside the met)
+										
+														static				instance
+														
+														
+	(1)Syntax:-
+		
+		static:- 		static dt varname = value;
+		-------
+		instance :- 		 dt varname = value;
+		-------
+		
+	(2)Memory allocation:-
+
+		static :- static prop's will gets the memory space only once at the time of class loading 
+		------					into the jvm
+		
+		instance :- instance prop's will gets the memory space for every object creation
+		-------
+		
+	(3)Access:-
+	
+		static:- Static prop's can be accessed by the class reference
+		------
+		instance:- instance prop's can be accessed by the object reference
+		--------
+	(4)In the memory:-
+	
+		static:- Method Area
+		------
+		instance:- Heap Area
+		----------
+	(5)Usage:- 
+	
+		static :- common data
+		------
+		instance:- unique data
+	    ---------
+	
+	
