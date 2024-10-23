@@ -108,5 +108,119 @@ p.l:- devloping the softwares(c,java.....)
 		------
 		instance:- unique data
 	    ---------
+		
+		
+		Operators:-	UTRLA AB
+		==========
+		
+		(1)Uniary Operators
+		(2)Terinary Operators (?)
+		(3)Relational Operators
+		(4)Logical Operators
+		(5)Assignment Operators = 
+		(6)Arithematic Operators
+		(7)Bitwise Operators
+		
+		
+		
+		Flow Control Statements:-
+		========================
+		
+		(1)Conditional statements
+		
+		(2)Loops
+		
+		
+		class:- variables + methods  [members + member functions]
+		
+		object :- copy of class
+	
+		ClassName objName;   //declaration of  a object
+		
+		ClassName objName = new ClassName();  //initialization of a object
+		
+		
+		Methods :-  Based on the method signature/syntax .It's 2 types;-
+		-------
+					syntax:-
+					
+						
+						accessModifier returnType metName(params....){
+						
+						//body
+						
+						}
+						
+						
+		
+		(1)Static Method
+							
+						accessModifier static returnType metName(params....){
+						
+						//body
+						
+						}
+		
+		
+		
+		
+		(2)Dynamic Method
+		
+						accessModifier returnType metName(params....){
+						
+						//body
+						
+						}
+		
+	Inheritance:-Accquiring  parent class features to the child class
+	----------- 
+	
+			extends 					implements
+			
+		class->class
+
+****** In java M.I is not supported @class level.Becoz:-
+			
+		class A{					class B{
+		
+		add(a,b){					add(x,y){
+		
+		a+b;						a*b;
+		
+		}							}
+		}							}
+		
+	class C extends A,B{
+	
+	add(4,6);   //10
+	
+	}
 	
 	
+	
+	* In java M.I is supported @interface level
+	
+	
+	Method:-Based on the method body.It's 2 types:-
+	------
+	
+	(1)Concrete Methods:-Methods with the method body
+	
+		syntax:-		accessModifier returnType metName(params....){
+						
+						//body
+						
+						}
+	
+	
+	(2)Abstract Methods:-Methods with out the method body
+	
+				accessModifier returnType metName(params....);
+				
+				
+	
+	class:- It's the only collection of concrete method's.
+	
+	interface :- It's the only collection of abstract methods.
+	
+	abstract clss:- It's the combination of both abstract and concrete methods.
