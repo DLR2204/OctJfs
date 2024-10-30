@@ -53,6 +53,11 @@ public class Employee {
 		this.empSal = empSal;
 		this.empAdd = empAdd;
 	}
+
+	@Override
+	public String toString() {
+		return "Employee [empId=" + empId + ", empName=" + empName + ", empSal=" + empSal + ", empAdd=" + empAdd + "]";
+	}
 	
 
 	
