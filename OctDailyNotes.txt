@@ -175,9 +175,15 @@ p.l:- devloping the softwares(c,java.....)
 	Inheritance:-Accquiring  parent class features to the child class
 	----------- 
 	
+					* Code Reusability
+	
 			extends 					implements
 			
-		class->class
+		class->class					interface -->class
+		interface->interface
+		
+		
+		
 
 ****** In java M.I is not supported @class level.Becoz:-
 			
@@ -224,3 +230,87 @@ p.l:- devloping the softwares(c,java.....)
 	interface :- It's the only collection of abstract methods.
 	
 	abstract clss:- It's the combination of both abstract and concrete methods.
+	
+	
+	Abstraction:-Hiding the data
+	-----------
+	
+			* Security
+			
+			
+			
+	interface :- 100% 
+	
+	abstract class:- 0-100%
+	
+	class :-0%
+	
+	Polymorphism:-		*Code Reusability
+	-------------
+	
+	(1)MethodOverloading:-Method name is same but diff is in the met params..
+							(a)no:-of params...
+							(b)ordeer of params...
+							(c)type of params..
+							
+	
+	
+	(2)MethodOverriding:-Method name is but diff method implementation/body.
+	
+	
+	class Parent{
+	
+	1000Cr();
+	
+	marriage(){
+	kajol;}
+	
+	......
+	
+	
+	}
+	
+	class child {
+	
+	@Override
+	marriage(){
+	deepika;}
+	
+	......
+	
+}
+
+Encapsulation:-Wrapping of similar data into a single entity/class.
+
+			*Security
+
+
+Accessmodifer :- 
+			
+				public 
+				
+				private
+				
+				protected
+				
+				default
+				
+				
+	Constructor:-to initialize the objects
+	
+						(1)Default constructor
+						
+			syntax:-
+						a.m className(){
+						
+						//body
+						}
+						
+						(2)Parametrized constructor
+						
+						a.m className(params...){
+						
+						//body
+						}
+						
+				note:-Constructor call must be the first statement in a constructor
