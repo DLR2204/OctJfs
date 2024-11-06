@@ -314,3 +314,57 @@ Accessmodifer :-
 						}
 						
 				note:-Constructor call must be the first statement in a constructor
+				
+				
+		Exception Handling:-
+		
+		(1)User friendly error msg's
+		
+		(2)Normal termination
+		
+		
+		
+		
+		Arrays:-
+		======
+		
+		
+		(1)Only homogeneous elements are allowed
+		
+		(2)fixed in size.
+		
+		(3)no utility methods.
+		
+		
+		
+		syntax:-
+		
+		
+			(1) dt arrname[]  = {1,2,4,5,6,6,7,88,8}
+			
+			(2)dt arrname[] = new dt[]{1,2,3,4,5,6,6};
+			
+			(3)dt arrname[] = new dt[5];
+			
+				arrname[3] = 45;
+				
+				
+		collections:-(framework)
+		=-==========
+		
+		
+		(1)both heterogenous/homogeneous elements are allowed
+		
+		(2)growable in nature.
+		
+		(3)lots of utility methods
+		
+		
+	
+	java.lang.Comparable ------>compareTo(o1)-------------------->cso
+		
+		
+	java.util.Comparator ------>compare(o1,o2); -------------->NSO
+	
+	
+								apple box   97-98 =-ve
