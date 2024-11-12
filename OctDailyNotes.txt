@@ -368,3 +368,36 @@ Accessmodifer :-
 	
 	
 								apple box   97-98 =-ve
+								
+								
+		
+	filehandling:-  java.io
+	-------------
+	
+	(1)To create a file :- File
+	
+	(2)Write into the file :-  FileWriter
+							   BufferedWriter
+							   PrintWriter
+	
+	(3)Read from the file :-   FileReader
+							   BufferedReader
+							   
+							   
+		junit:-  To test a piece of code in java
+		
+		
+String:-
+======
+
+		String varname = value;  -------->literal
+		
+
+			String 					StringBuffer					StringBuilder
+		
+			immutable				mutable							mutable
+		
+									sync							non-sync(mutli-threading)
+									
+									
+	MultiThreading:-running mutiple processes(thread) at a time.
