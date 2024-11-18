@@ -426,15 +426,15 @@ String:-
 		
 		queries :- To perform any operation we need to write query .5 types:-
 		
-		(1)DDL(Data Definition Language):-create,alter,rename,drop,truncate..
+		(1)DDL(Data Definition Language):-create,alter,rename,drop,truncate..  [atuo committed]
 		
-		(2)DML(Data Manipulation Language):-insert,update,delete
+		(2)DML(Data Manipulation Language):-insert,update,delete  [not auto comitted]
 		
 		(3)DRL(Data Retrival Language):-select
 		
 		(4)DCL(Data Control Language):-grant,revoke
 		
-		(5)TCL(Trans'n Control Language):-commit,rollback
+		(5)TCL(Trans'n Control Language):-commit(ctrl+s),rollback(ctrl+z)
 		
 		
 		
@@ -443,4 +443,67 @@ String:-
 		(3)grant connect, resource to username;
 login:-		
 		(4)conn username/password;
+		
+		
+		
+		drop :- deletes the entire table along with the data
+		
+		truncate :- deletes the data inside the table 
+		
+		delete :- delete the specified row/records. 
+		
+		
+		
+		
+										jdbc:-
+										=====
+										
+	java database connectivity:-
+	----------------------------	
+	
+		
+		(1)Loading the drivers
+		
+		(2)Create the connection
+		
+		(3)Create the statement
+		
+		(4)Exceuting the statement
+		
+		(5)Close the connections.
+		
+		
+		limitations:-
+		-----------
+		
+		(1)Queires
+		
+		(2)Table should be created
+		
+		(3)exception handling
+		
+		(4)boiler plate(repeated code)
+		
+		(5)same file for db prop's ,logic
+		
+		
+		
+		jpa (java persistence API):- [spefications]
+		----------------------------
+		
+		(1)No Queires
+		
+		(2)No Table should be created
+		
+		(3)No exception handling
+		
+		(4)No boiler plate(repeated code)
+		
+		(5)Diff files for db prop's ,logic
+		
+		
+		orm tools(object reational mapping tools):-
+		
+		hibernate,ecllipse link,top link ,ibatis.......
+		
 		
