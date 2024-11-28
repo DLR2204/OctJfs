@@ -488,7 +488,7 @@ login:-
 		
 		
 		
-		jpa (java persistence API):- [spefications]
+		jpa (java persistence API):- [spefications]-interface
 		----------------------------
 		
 		(1)No Queires
@@ -507,3 +507,111 @@ login:-
 		hibernate,ecllipse link,top link ,ibatis.......
 		
 		
+		HIBERNATE:-
+		=========
+		
+		class-------------------->Table   @Entity
+		
+		variables---------------->columns @Id
+		
+		objects ----------------->rows
+		
+		
+		EntityManagerFacotry
+		
+		
+		EntityManager
+		
+		insert --persist()
+		
+		update --merge()
+		
+		select --find()
+		
+		delete --remove()
+		
+		
+		
+		persistence.xml
+		
+		
+		<persistence   schema>
+		
+		<persistence-unit  name="oracle"   transaction-type="resource-local">    </persistence-unit>
+		
+		
+		db properties
+		
+		hibernate
+		
+		</persistence>
+		
+		
+		
+		Maven :- It is a build tool
+		
+		
+							Spring
+							=====
+							
+	Spring:-It's a non-invasive framework which is used to develop light-weighted and 
+					loosley coupled web app's.
+		
+				
+				invasive :- it will forces the programmer to use the inbuilt api
+				
+				non-invasive :- it will not forces the programmer to use the inbuilt api
+		
+		
+		heavy-weighted:-
+		
+		
+		
+		class A{
+		
+		1000 methods
+		
+		}
+		class B extends A{
+		
+		10 methods
+		}
+		
+		class C extends B{
+		
+		1 method ------>1011 methods
+		}
+		
+		
+		tightly coupled:-If the dependencies(objects) are very high it is called tightly coupled app'n.
+		
+		loosley coupled:- If the dependencies are very low then it's called as loosley coupled app'n.
+		
+		
+		spring 1.x------------------>spring 6.x
+		
+		
+		Spring Core,Spring Boot,Spring Rest, Spring Security,Spring could,Spring Data Jpa,...................
+		
+		
+											Spring Core:-
+											===========
+											
+					To avoid the dependencies.------------>to make loosley coupled app'n
+					
+					
+			Containers:-Containers will creates the objects 
+						(1)BeanFactory
+						(2)ApplicationContext
+						
+						
+			Dependency Injection:- Injecting the data into the object
+						(1)SetterInjection  :- <property></property>
+						(2)ConstructorInjection :- <constructor-arg></constructor-arg>
+						(3)Autowiring
+						
+			Configuration:- 
+						(1)Xml Configuration
+						(2)AnnotationConfiguration
+						
+			
