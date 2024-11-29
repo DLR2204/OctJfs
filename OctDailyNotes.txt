@@ -614,4 +614,20 @@ login:-
 						(1)Xml Configuration
 						(2)AnnotationConfiguration
 						
+						
+						
+						
+										SpringBoot
+										==========
+										
+					(1)AutoConfiguration
+					
+					(2)EmbeddedServer :- Tomcat :8080
+					
+					(3)Starters :- set of jar's
+					
+					(4)Actuators :- gives the health/env/status of app'n through url's.
+			
+			
+			
 			
