@@ -630,4 +630,15 @@ login:-
 			
 			
 			
+			Controller :- It will interact with end client through http url's.
+			
+			Repository/Dao :-  It will interact with database to perform crud operations.
+			
+			service :- It will act like transprent layer b/n controller nd dao/repository.
+			
+			
+			c-create
+			r-retrive
+			u-update
+			d-delete
 			
