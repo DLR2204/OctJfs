@@ -642,3 +642,14 @@ login:-
 			u-update
 			d-delete
 			
+			
+			SpringRest 
+			=========
+			
+			webservices:- It is to make interation possible between two interoperable applications.
+			
+			
+					(1)SOAP :- common lang is only "xml"[simple object access program]
+					
+					(2)REST :- common lang's are -"xml,json,html,php,txt...."[Representational state transfer]
+			
