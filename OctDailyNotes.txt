@@ -653,3 +653,38 @@ login:-
 					
 					(2)REST :- common lang's are -"xml,json,html,php,txt...."[Representational state transfer]
 			
+			
+			
+									FrontEnd
+									========
+									
+									
+		website:-The collection of webpages
+		
+					(1)static webpages:- Changes will not happens regularly.
+							
+					(2)Dynamic webpages:- Changes will happens regularly
+							
+					(3)server webpages:- the data from the dynamic / static webpages will get stored
+					
+					
+					
+										HTML(.htm/.html)
+										====
+	
+	Hyper Text Markup Language
+	
+	Tim berners lee
+	
+	
+	tags :- <predefinedword>
+	
+	(1)container/pair :-  <tag></tag>
+	
+	(2)Single/Empty :-	<tag> or </tag>
+	
+	
+	
+	
+	
+	<h1 class="value"> Hello Everyone </h1>         ============>element
