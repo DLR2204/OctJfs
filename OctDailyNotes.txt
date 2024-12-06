@@ -688,3 +688,24 @@ login:-
 	
 	
 	<h1 class="value"> Hello Everyone </h1>         ============>element
+	
+	
+	Linking Tags:-  2 types
+	 
+	(1)Text linking tag
+	
+	(2)Image linking tag
+	
+	
+	Table :-  <table></table>
+	
+	rows   <tr></tr>
+	
+	colums <td></td>
+	
+	
+	elements :- 2 types 
+	
+	(1)Blocking elements :- after printing block element cursor will take a new line
+	
+	(2)Inline elements :- after printing Inline element cursor will print elements next to it.
