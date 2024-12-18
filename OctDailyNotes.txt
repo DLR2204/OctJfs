@@ -709,3 +709,60 @@ login:-
 	(1)Blocking elements :- after printing block element cursor will take a new line
 	
 	(2)Inline elements :- after printing Inline element cursor will print elements next to it.
+	
+	
+									css :- 
+									=====
+			(1)Inline styling    :- style attribute inside the opening tag
+			
+			(2)Internal Styling   :- <style> tag inside the head tag
+			
+			(3)External Styling   :-  attaching .css file to .html
+			
+			
+			
+			selectors:- 
+			==========
+			
+			
+			(1)tag name [h1,p]
+				
+			(2)id name[#idname]
+			
+			(3)class name[.className]
+			
+			(4)universal[*]
+			
+	
+									javascript:-
+									==========
+									
+				(1)Dynamic webpages
+				
+				(2)To change the html elements
+				
+				(3)To change the html attributes
+				
+				(4)To change the css
+				
+				(5)To hide the data
+				
+				
+	
+		(1)Internal  :- <script> tag inside the head/body
+		
+		(2)External  :-attaching .js file to the html document
+		
+		
+		
+		output functions in js :- 
+		------------------------
+		
+		
+		(1)innerHTML() :- using id of an element the inner html data will be displayed on the webpage
+		
+		(2)document.write() :- data inside the write will be displayed on the webpage
+		
+		(3)window.alert() :- the data inside the alert will be displayed on an alert box
+		
+		(4)cosole.log() :- the data inside the log function will be displayed in the console window.
