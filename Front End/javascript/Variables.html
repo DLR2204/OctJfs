@@ -1,0 +1,46 @@
+<html>
+<head><title>External</title>
+
+<script>
+function check(){
+	
+var a,b,c,d,e,f;
+
+document.write("<h1>Before initialization</h1>")
+document.write("<br>Datatype of a  is :- ", typeof a)
+document.write("<br>Datatype of b  is :- ", typeof b)
+document.write("<br>Datatype of c  is :- ", typeof c)
+document.write("<br>Datatype of d  is :- ", typeof d)
+document.write("<br>Datatype of e  is :- ", typeof e)
+document.write("<br>Datatype of f  is :- ", typeof f)
+
+
+a=1;b=3.14;c="apple";d=[1,"hello",3.14,true];e=true;f={name:"kalaam",id:100}
+
+document.write("<h1>After initialization</h1>")
+document.write("<br>Datatype of a  is :- ", typeof a)
+document.write("<br>Datatype of b  is :- ", typeof b)
+document.write("<br>Datatype of c  is :- ", typeof c)
+document.write("<br>Datatype of d  is :- ", typeof d)
+document.write("<br>Datatype of e  is :- ", typeof e)
+document.write("<br>Datatype of f  is :- ", typeof f)
+
+var result = a/c;
+
+window.alert(result);
+
+}
+</script>
+
+</head>
+
+<body><center>
+<h1><u>Variables in javascript</u></h1>
+
+
+
+<button type="button" onclick="check()">check</button>
+
+</center>
+</body>
+</html>
